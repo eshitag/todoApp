@@ -7,6 +7,9 @@ import { createStore } from "redux";
 import todoApp from "./Reducers";
 import { Provider } from "react-redux";
 import stylesheets from "bootstrap";
+import $ from 'jquery';
+import 'bootstrap/dist/js/bootstrap.bundle.min'; // or bootstrap.js
+
 
 const store = createStore(todoApp);
 
